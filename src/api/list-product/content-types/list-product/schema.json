@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_products",
+  "info": {
+    "singularName": "list-product",
+    "pluralName": "list-products",
+    "displayName": "ListProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
